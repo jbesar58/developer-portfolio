@@ -23,4 +23,4 @@ jobs:
           context: .
           push: true
           # GANTI 'username_anda' di bawah dengan username Docker Hub asli Anda
-          tags: jbesar/portfolio-app:latest
+          tags: jbesar58/portfolio-app:latest
