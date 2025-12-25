@@ -113,7 +113,7 @@ const InitialHome = () => {
 
     return `<span style="color:#6A9955">// Fullstack developer with diverse skills</span>
 <span style="color:#569CD6">const</span> developer = {
-  <span style="color:#9CDCFE">name</span>: <span style="color:#CE9178">'Adam Neves'</span>,
+  <span style="color:#9CDCFE">name</span>: <span style="color:#CE9178">'Joko Aryanto'</span>,
   <span style="color:#9CDCFE">skills</span>: {
     <span style="color:#9CDCFE">frontend</span>: ${highlightTechArray(
       skillsObject.frontend,
@@ -297,7 +297,7 @@ const InitialHome = () => {
               ref={titleRef}
               className="text-[45px] xl:text-[60px] font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text"
             >
-              ADAM NEVES
+              Joko Aryanto
             </h1>
 
             <motion.p
@@ -331,7 +331,7 @@ const InitialHome = () => {
               </Link>
               <Link
                 target="_blank"
-                href="https://drive.google.com/file/d/1-Fc_jtaHOwTODyT30z70gX7ZqK5n94vP/view?usp=sharing"
+                href=""
                 aria-label="cv"
               >
                 <Button variant="secondary" className="gap-x-2 group">

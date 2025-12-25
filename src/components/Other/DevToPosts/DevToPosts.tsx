@@ -188,7 +188,7 @@ const DevToPosts = () => {
     const startTime = Date.now();
 
     try {
-      const fetchedPosts = await fetchDevtoPosts("adamsnows");
+      const fetchedPosts = await fetchDevtoPosts("JokoAryanto");
 
       if (fetchedPosts.length > 0) {
         // Animação suave para atualizar os posts

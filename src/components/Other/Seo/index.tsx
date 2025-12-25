@@ -4,7 +4,7 @@ import Head from "next/head";
 const Seo = ({ title, description }: SeoInterface) => {
   return (
     <Head>
-      <meta name="author" content="Adam Neves" />
+      <meta name="author" content="Joko Aryanto" />
       <meta name="keywords" content="Javascript" />
       <link rel="fluid-icon" href="/ts.png" title="Adam Neves" />
       <link rel="icon" type="image/png" href="/ts.png" />

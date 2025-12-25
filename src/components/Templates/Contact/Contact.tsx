@@ -103,7 +103,7 @@ const Contact = () => {
             <motion.div variants={fadeInUp}>
               <div className="flex items-center gap-x-4 text-primary text-lg mb-4 justify-center">
                 <span className="w-[30px] h-[2px] bg-primary"></span>
-                <TextReveal text="Hey, Adam!" className="text-xl" />
+                <TextReveal text="Hey, Joko!" className="text-xl" />
                 <span className="w-[30px] h-[2px] bg-primary"></span>
               </div>
               <h1 className="h1 mb-8">Let&apos;s Connect!</h1>
@@ -124,7 +124,7 @@ const Contact = () => {
                 duration={5}
                 distance={10}
               >
-                <a href="mailto:adamangelow@gmail.com">
+                <a href="mailto:jbesar58@gmail.com">
                   <motion.div
                     whileHover={{ scale: 1.05 }}
                     className="flex flex-col items-center gap-4"
@@ -134,7 +134,7 @@ const Contact = () => {
                     </div>
                     <h3 className="text-xl font-semibold">Email</h3>
                     <span className="text-white/70 hover:text-primary transition-colors">
-                      adamangelow@gmail.com
+                      jbesar58@gmail.com
                     </span>
                     <p className="text-sm text-white/50">
                       Available for inquiries 24/7
@@ -150,7 +150,7 @@ const Contact = () => {
                 delay={0.2}
               >
                 <a
-                  href="https://wa.me/5584991398170"
+                  href="https://wa.me/081353049533"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -166,7 +166,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="text-white/70 hover:text-primary transition-colors"
                     >
-                      +55 (84) 99139-8170
+                      +62813-5304-9533
                     </span>
                     <p className="text-sm text-white/50">
                       Quick responses during business hours
@@ -179,7 +179,7 @@ const Contact = () => {
             <motion.div variants={fadeInUp} className="text-center">
               <div className="flex items-center gap-x-4 text-white/70 justify-center mb-2">
                 <RiHomeFill size={18} />
-                <span>Natal, RN, Brazil</span>
+                <span>Jakarta, Indonesia</span>
               </div>
               <p className="text-sm text-white/50">
                 Available for remote work worldwide and open to local

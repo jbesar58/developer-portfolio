@@ -13,7 +13,7 @@ const Footer = () => {
           />
 
           <div className="text-center lg:text-start text-muted-foreground mb-3">
-            Copyright &copy; Adam Neves. All rights reserved
+            Copyright &copy; Joko Aryanto. All rights reserved
           </div>
           <Link
             href="https://github.com/adamsnows/my-portfolio"
