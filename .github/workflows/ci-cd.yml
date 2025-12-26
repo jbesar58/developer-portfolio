@@ -31,7 +31,7 @@ jobs:
           context: .
           push: true
           # Ganti 'jbesar' dengan username Docker Hub Anda
-          tags: jbesar58/portfolio-app:latest
+          tags: jbesar/portfolio-app:latest
           # Mengaktifkan attestations untuk keamanan supply chain (best practice 2025)
           provenance: true
           sbom: true
