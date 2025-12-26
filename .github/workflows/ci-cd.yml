@@ -8,30 +8,19 @@ jobs:
   build-and-push:
     runs-on: ubuntu-latest
     steps:
-      # Versi terbaru 2025: v4
       - name: Checkout code
-        uses: actions/checkout@v4 
+        uses: actions/checkout@v3
 
-      # Diperlukan untuk fitur build modern (multi-platform, cache)
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3 
-
-      # Versi terbaru 2025: v3
       - name: Login to Docker Hub
-        uses: docker/login-action@v3 
+        uses: docker/login-action@v2
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
-          # Gunakan Personal Access Token (PAT), bukan password asli
-          password: ${{ secrets.DOCKERHUB_TOKEN }} 
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # Versi terbaru 2025: v6
       - name: Build and push
-        uses: docker/build-push-action@v6 
+        uses: docker/build-push-action@v4
         with:
           context: .
           push: true
-          # Ganti 'jbesar' dengan username Docker Hub Anda
+          # GANTI 'username_anda' di bawah dengan username Docker Hub asli Anda
           tags: jbesar/portfolio-app:latest
-          # Mengaktifkan attestations untuk keamanan supply chain (best practice 2025)
-          provenance: true
-          sbom: true
